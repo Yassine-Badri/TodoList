@@ -1,3 +1,18 @@
+/* If the screen size is 601px or more */
+@media only screen and (min-width: 601px) {
+  #container {
+    width: 480px;
+  }
+}
+
+/* If the screen size is 600px or less */
+@media only screen and (max-width: 600px) {
+  #container {
+    width: 80%;
+  }
+}
+
+
 body{
   font-family: Roboto;
   background: #1F1C2C;  /* fallback for old browsers */
@@ -42,7 +57,6 @@ input:focus{
   outline: none;
 }
 #container{
-  width: 480px;
   margin: 100px auto;
   background: #f7f7f7;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
