@@ -1,11 +1,30 @@
-@media screen and (min-width: 600px) {
-  #container {
-    width: 80%; /* The width is 100%, when the viewport is 800px or smaller */
+@media screen and (min-width: 1281px) {
+  #container{
+    width: 500px;
   }
 }
-@media screen and (min-width: 800px) {
-  #container {
-    width: 480px; /* The width is 100%, when the viewport is 800px or smaller */
+
+@media screen and (max-width: 1280px) {
+  #container{
+    width: 550px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #container{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #container{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #container{
+    width: 90%;
   }
 }
 
